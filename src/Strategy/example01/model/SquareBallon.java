@@ -1,0 +1,19 @@
+package Strategy.example01.model;
+
+import Strategy.example01.controller.ScoreboardStrategyBase;
+
+public class SquareBallon extends ScoreboardStrategyBase{
+
+	
+	@Override
+	public int calculateScore(int taps, int multiplier) {
+		
+		return (taps * multiplier) + 40;
+	}
+
+	@Override
+	public String printNameUser(String firstName, String lastName) {
+		
+		return firstName + " " + lastName + " - SquareBallon";
+	}
+}
