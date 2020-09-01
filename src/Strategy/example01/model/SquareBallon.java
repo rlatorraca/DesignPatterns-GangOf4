@@ -1,8 +1,8 @@
 package Strategy.example01.model;
 
-import Strategy.example01.controller.ScoreboardStrategyBase;
+import Strategy.example01.controller.ScoreboardStrategyAlgorithm;
 
-public class SquareBallon extends ScoreboardStrategyBase{
+public class SquareBallon extends ScoreboardStrategyAlgorithm{
 
 	
 	@Override

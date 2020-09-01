@@ -2,7 +2,7 @@ package Strategy.example01.controller;
 
 public class Scoreboard {
 
-	public ScoreboardStrategyBase scoreboarsBase;
+	public ScoreboardStrategyAlgorithm scoreboarsBase;
 	
 	public void showScore(int taps, int multiplier) {
 		System.out.println(scoreboarsBase.calculateScore(taps, multiplier));

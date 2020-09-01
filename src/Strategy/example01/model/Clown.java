@@ -1,8 +1,8 @@
 package Strategy.example01.model;
 
-import Strategy.example01.controller.ScoreboardStrategyBase;
+import Strategy.example01.controller.ScoreboardStrategyAlgorithm;
 
-public class Clown extends ScoreboardStrategyBase {
+public class Clown extends ScoreboardStrategyAlgorithm {
 
 	@Override
 	public int calculateScore(int taps, int multiplier) {

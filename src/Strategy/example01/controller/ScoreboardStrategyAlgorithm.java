@@ -8,7 +8,7 @@ package Strategy.example01.controller;
  * @author rlatorraca
  *
  */
-public abstract class ScoreboardStrategyBase {
+public abstract class ScoreboardStrategyAlgorithm {
 
 	public abstract int calculateScore(int taps, int multiplier);
 	public abstract String printNameUser(String firstName, String lastName);
