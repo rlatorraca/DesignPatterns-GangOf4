@@ -1,10 +1,10 @@
-package ca.com.rlsp._01_CreationPatterns.abstractFactory._01PizzeriaFactory;
+package ca.com.rlsp._01_Creational_Patterns.abstractFactory._01_PizzeriaFactory;
 
-import ca.com.rlsp._01_CreationPatterns.abstractFactory._01PizzeriaFactory.pizzaFactory.BasePizzaFactory;
-import ca.com.rlsp._01_CreationPatterns.abstractFactory._01PizzeriaFactory.pizzaFactory.BelgiumPizza;
-import ca.com.rlsp._01_CreationPatterns.abstractFactory._01PizzeriaFactory.pizzaFactory.BrazilianPizza;
-import ca.com.rlsp._01_CreationPatterns.abstractFactory._01PizzeriaFactory.pizzaFactory.ItalianPizza;
-import ca.com.rlsp._01_CreationPatterns.abstractFactory._01PizzeriaFactory.product.Pizza;
+import ca.com.rlsp._01_Creational_Patterns.abstractFactory._01_PizzeriaFactory.pizzaFactory.BasePizzaFactory;
+import ca.com.rlsp._01_Creational_Patterns.abstractFactory._01_PizzeriaFactory.pizzaFactory.BelgiumPizza;
+import ca.com.rlsp._01_Creational_Patterns.abstractFactory._01_PizzeriaFactory.pizzaFactory.BrazilianPizza;
+import ca.com.rlsp._01_Creational_Patterns.abstractFactory._01_PizzeriaFactory.pizzaFactory.ItalianPizza;
+import ca.com.rlsp._01_Creational_Patterns.abstractFactory._01_PizzeriaFactory.product.Pizza;
 
 public class TestAbstractFactory {
 
